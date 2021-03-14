@@ -1,4 +1,4 @@
-override CFLAGS+=-Wall -Wextra -O2 -Isrc
+override CFLAGS+=-Isrc
 override LDFLAGS+=-lcurl -lpcre -lpthread -lssh -ldl -lcrypto
 
 SOURCES := $(wildcard src/*/*.c) $(wildcard src/*.c)
