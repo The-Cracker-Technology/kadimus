@@ -1,6 +1,6 @@
 make
 
-strip bin/kadimus
+strip kadimus
 
 rm -rf /opt/ANDRAX/bin/kadimus
 
